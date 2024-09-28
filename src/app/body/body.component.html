@@ -1,0 +1,44 @@
+<div class="body-container">
+    <!-- Featured Section -->
+    <div class="featured-section">
+      <img
+        src="https://via.placeholder.com/1200x500"
+        alt="Featured Movie"
+        class="featured-image"
+      />
+      <div class="featured-overlay">
+        <h1>Featured Movie Title</h1>
+        <p>Experience the action and drama of this new release.</p>
+        <button class="btn btn-danger me-2">Play</button>
+        <button class="btn btn-secondary">More Info</button>
+      </div>
+    </div>
+  
+    <!-- Movie Categories -->
+    <div class="movie-category">
+      <h3>Trending Now</h3>
+      <div class="movie-row">
+        <div class="movie-card" *ngFor="let movie of [1, 2, 3, 4, 5, 6, 7, 8]">
+          <img
+            src="https://via.placeholder.com/200x300"
+            alt="Movie Thumbnail"
+            class="movie-thumbnail"
+          />
+        </div>
+      </div>
+    </div>
+  
+    <div class="movie-category">
+      <h3>Top Picks for You</h3>
+      <div class="movie-row">
+        <div class="movie-card" *ngFor="let movie of [1, 2, 3, 4, 5, 6, 7, 8]">
+          <img
+            src="https://via.placeholder.com/200x300"
+            alt="Movie Thumbnail"
+            class="movie-thumbnail"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  
