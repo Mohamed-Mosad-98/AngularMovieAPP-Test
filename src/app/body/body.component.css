@@ -1,0 +1,49 @@
+.body-container {
+    margin-top: 56px; /* Adjust for navbar height */
+    background-color: #141414;
+    color: white;
+    padding: 20px;
+  }
+  
+  .featured-section {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .featured-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .featured-overlay {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .movie-category {
+    margin-bottom: 30px;
+  }
+  
+  .movie-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+  
+  .movie-card {
+    min-width: 200px;
+    margin-right: 10px;
+  }
+  
+  .movie-thumbnail {
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .movie-thumbnail:hover {
+    transform: scale(1.1);
+  }
+  
